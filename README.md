@@ -20,16 +20,16 @@ Users can:
 - View and search medicine lists <br>
 - Add new medicines  <br>
 - Donate medicines  <br>
+- Claim medicines <br>
 - Interact with a chatbot for basic medical assistance  <br>
 
 
 ## ✨ Features
-- 💊 **Medicine List:** View, search, and manage medicines  
-- ➕ **Add Medicine:** Add new medicines easily  
+- 💊 **Medicine List:** View, search, and manage medicines   
 - 📝 **Medicine Details:** Check details of any medicine  
 - 🤝 **Donate Medicines:** Contribute medicines to users in need
-- 🎁 **Claim Medicines:** Request and claim medicines from available donations  
-- 🤖 **Chatbot Assistance:** Quick guidance through a chatbot interface  
+- 🎁 **Claim Medicines:** Claim medicines from available donations  
+- 🤖 **Chatbot Assistance:** For basic information  
 - 🔒 **Secure Backend:** Sensitive info stored in `.env`  
 - 🗄️ **MongoDB Storage:** Data persists across sessions  
 
