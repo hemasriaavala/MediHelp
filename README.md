@@ -64,7 +64,7 @@ node server.js<br>
 Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 
 
-## 🚀 Usage
+## 🚀 Usage<br>
 - Open the frontend files in your browser (or use Live Server in VSCode). 
 - View full details of any medicine. 📝  
 - Donate medicines to others in need. 🤝  
@@ -77,6 +77,9 @@ node_modules/ is ignored; run npm install to install packages locally<br>
 IDE folders like .vscode/ and .vs/ are ignored—they are not required for the project<br>
 Only track essential files: frontend files, server.js, package.json, package-lock.json
 
+## 🔮 Future Improvements<br>
+- Enhance chatbot with AI-based guidance
+- Add admin panel to manage medicines more efficiently
 
 ## 📝 MIT License<br>
 Copyright (c) 2026 Aavala Hema Sri<br>
