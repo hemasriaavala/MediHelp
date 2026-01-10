@@ -84,6 +84,24 @@ Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 **Signup** <br>
 ![image alt](Signup.png)
 
+**Login** <br>
+![image alt](Login.png)
+
+**Modules-page**<br>
+![image alt](Modules-page.png)
+
+**Donate-Medicine**<br>
+![image alt](Donate-Medicine.png)
+
+**Claim-Medicine**<br>
+![image alt](Claim-Medicine.png)
+
+**Available Medicines**<br>
+![image alt](Medicines-list.png)
+
+**Mini chatbot**<br>
+![image alt](Chatbot)
+
 ## 🔮 Future Improvements<br>
 Enhance chatbot with AI-based guidance
 Add admin panel to manage medicines more efficiently
