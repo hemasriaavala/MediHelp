@@ -24,13 +24,13 @@ Users can:
 
 
 ## ✨ Features
-- 💊 **Medicine List:** View, search, and manage medicines   
-- 📝 **Medicine Details:** Check details of any medicine  
-- 🤝 **Donate Medicines:** Contribute medicines to users in need
-- 🎁 **Claim Medicines:** Claim medicines from available donations  
-- 🤖 **Chatbot Assistance:** For basic information  
-- 🔒 **Secure Backend:** Sensitive info stored in `.env`  
-- 🗄️ **MongoDB Storage:** Data persists across sessions  
+💊 **Medicine List:** View, search, and manage medicines   
+📝 **Medicine Details:** Check details of any medicine  
+🤝 **Donate Medicines:** Contribute medicines to users in need
+🎁 **Claim Medicines:** Claim medicines from available donations  
+🤖 **Chatbot Assistance:** For basic information  
+🔒 **Secure Backend:** Sensitive info stored in `.env`  
+🗄️ **MongoDB Storage:** Data persists across sessions  
 
 
 ## 🎥 Demo
@@ -71,10 +71,10 @@ Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 - Interact with the chatbot for guidance. 🤖
 
 ## 📝 Notes<br>
-.env is required to run the backend; backend will not work without proper MongoDB URI<br>
-node_modules/ is ignored; run npm install to install packages locally<br>
-IDE folders like .vscode/ and .vs/ are ignored—they are not required for the project<br>
-Only track essential files: frontend files, server.js, package.json, package-lock.json
+- .env is required to run the backend; backend will not work without proper MongoDB URI<br>
+- node_modules/ is ignored; run npm install to install packages locally<br>
+- IDE folders like .vscode/ and .vs/ are ignored—they are not required for the project<br>
+- Only track essential files: frontend files, server.js, package.json, package-lock.json
 
 ## 🔮 Future Improvements<br>
 - Enhance chatbot with AI-based guidance
