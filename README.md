@@ -79,6 +79,10 @@ Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 
 ## 📸 Screenshots <br>
 **Main Page** <br>
+![image alt](https://github.com/hemasriaavala/MediHelp/blob/890e997afeb5836db86f4f9c34a9019a3e743d3e/Home.png)
+
+**Signup** <br>
+![image alt](Signup.png)
 
 ## 🔮 Future Improvements<br>
 Enhance chatbot with AI-based guidance
