@@ -69,7 +69,7 @@ MEDIHELP/
 ### Setup Instructions
 
 ### **1. Clone the repository**
-git clone https://github.com/hemasri/your-repo.git
+git clone (https://github.com/hemasriaavala/MediHelp.git)
 cd MEDIHELP
 
 ### **2. Setup Backend**
