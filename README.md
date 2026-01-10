@@ -96,9 +96,12 @@ Open the HTML files in frontend/ using a browser (or serve via Live Server).
 
 ## Technologies Used
 Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
+
+Backend: Node.js
+
 Database: MongoDB
-Tools: VSCode, Git, GitHub
+
+Tools: VSCode, GitHub
 
 ## Notes
 .env is required to run the backend; backend will not work without proper MongoDB URI
