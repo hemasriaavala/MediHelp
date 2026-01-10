@@ -1,5 +1,6 @@
 🩺 **MEDIHELP – Medicine Management**  
 Helping you manage medicines and get guidance quickly! 💊🤖
+![image alt](https://github.com/hemasriaavala/MediHelp/blob/890e997afeb5836db86f4f9c34a9019a3e743d3e/Home.png)
 
 
 📑 **Table of Contents**
