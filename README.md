@@ -77,8 +77,8 @@ Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 - Only track essential files: frontend files, server.js, package.json, package-lock.json
 
 ## 🔮 Future Improvements<br>
-- Enhance chatbot with AI-based guidance
-- Add admin panel to manage medicines more efficiently
+Enhance chatbot with AI-based guidance
+Add admin panel to manage medicines more efficiently
 
 ## 📝 MIT License<br>
 Copyright (c) 2026 Aavala Hema Sri<br>
