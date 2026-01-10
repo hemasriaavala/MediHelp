@@ -10,8 +10,7 @@
 - [Notes](#notes)
 - [License](#license)
 
-
-- ## Project Overview
+## Project Overview
 MEDIHELP is a web-based platform that helps users manage medicines and interact with a chatbot for medical assistance.  
 It provides functionalities such as:  
 - Viewing medicine lists  
@@ -24,7 +23,7 @@ It provides functionalities such as:
 - This project is divided into **frontend** and **backend** for better maintainability.
 
 
-### Features
+## Features
 - User-friendly responsive frontend
 - Backend powered by MongoDB
 - Chatbot interface for quick assistance
@@ -32,7 +31,7 @@ It provides functionalities such as:
 - Secure handling of sensitive information using `.env`
 
   
-### Folder Structure
+## Folder Structure
 MEDIHELP/
 
 │
@@ -50,6 +49,7 @@ MEDIHELP/
 
 │ └─ ... (other frontend files)
 │
+
 ├─ medhelp-backend/ # Backend folder
 
 │ ├─ server.js # Main backend server
@@ -66,20 +66,25 @@ MEDIHELP/
 
 └─ README.md
 
-### Setup Instructions
+## Setup Instructions
 
 ### **1. Clone the repository**
 git clone (https://github.com/hemasriaavala/MediHelp.git)
+
 cd MEDIHELP
 
 ### **2. Setup Backend**
 cd medhelp-backend
+
 npm install       # Install dependencies
 
 ### **3. Configure Environment Variables**
 Create a .env file inside medhelp-backend/ with the following variables:
+
 PORT=3000
+
 MONGO_URI=your_mongodb_connection_string
+
 Important: Do not share .env publicly; it contains sensitive data.
 
 ### **4. Start Backend**
@@ -89,13 +94,13 @@ node server.js
 Open the HTML files in frontend/ using a browser (or serve via Live Server).
 
 
-### Technologies Used
+## Technologies Used
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: MongoDB
 Tools: VSCode, Git, GitHub
 
-### Notes
+## Notes
 .env is required to run the backend; backend will not work without proper MongoDB URI
 
 node_modules/ is ignored; run npm install to install packages locally
