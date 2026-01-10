@@ -76,6 +76,9 @@ Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 - IDE folders like .vscode/ and .vs/ are ignored—they are not required for the project<br>
 - Only track essential files: frontend files, server.js, package.json, package-lock.json
 
+## 📸 Screenshots <br>
+**Main Page** <br>
+
 ## 🔮 Future Improvements<br>
 Enhance chatbot with AI-based guidance
 Add admin panel to manage medicines more efficiently
