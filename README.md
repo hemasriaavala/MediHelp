@@ -1,4 +1,4 @@
-# MEDIHELP – Medicine Management & Chatbot Platform
+# MEDIHELP – Medicine Management
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -9,6 +9,7 @@
 - [Technologies Used](#technologies-used)
 - [Notes](#notes)
 - [License](#license)
+
 
 - ## Project Overview
 MEDIHELP is a web-based platform that helps users manage medicines and interact with a chatbot for medical assistance.  
@@ -22,15 +23,18 @@ It provides functionalities such as:
 
 - This project is divided into **frontend** and **backend** for better maintainability.
 
-## Features
+
+### Features
 - User-friendly responsive frontend
 - Backend powered by MongoDB
 - Chatbot interface for quick assistance
 - Medicine management system with add/view/search features
 - Secure handling of sensitive information using `.env`
-- 
-- ## Folder Structure
+
+  
+### Folder Structure
 MEDIHELP/
+
 │
 ├─ frontend/ # HTML, CSS, JS, images
 
@@ -43,6 +47,7 @@ MEDIHELP/
 │ ├─ styles.css
 
 │ ├─ nav.js
+
 │ └─ ... (other frontend files)
 │
 ├─ medhelp-backend/ # Backend folder
@@ -55,11 +60,13 @@ MEDIHELP/
 
 │ └─ .env # Environment variables (not tracked)
 │
+
 ├─ .gitignore # To ignore node_modules, .env, IDE files
+
 
 └─ README.md
 
-## Setup Instructions
+### Setup Instructions
 
 ### **1. Clone the repository**
 git clone https://github.com/your-username/your-repo.git
@@ -80,6 +87,7 @@ node server.js
 
 ### **5. Open Frontend**
 Open the HTML files in frontend/ using a browser (or serve via Live Server).
+
 
 ### Technologies Used
 Frontend: HTML, CSS, JavaScript
