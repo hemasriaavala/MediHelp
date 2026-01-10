@@ -1,7 +1,6 @@
 🩺 **MEDIHELP – Medicine Management**  
 Helping you manage medicines and get guidance quickly! 💊🤖
 
----
 
 📑 **Table of Contents**
 - [About the Project](#about-the-project)  
@@ -14,8 +13,6 @@ Helping you manage medicines and get guidance quickly! 💊🤖
 - [Future Improvements](#future-improvements)  
 - [License](#license)  
 
----
-
 ## 📖 About the Project
 **MEDIHELP** is a web-based platform designed to help users manage medicines efficiently and get guidance through a simple chatbot.  
 
@@ -25,7 +22,6 @@ Users can:
 - Donate medicines  <br>
 - Interact with a chatbot for basic medical assistance  <br>
 
----
 
 ## ✨ Features
 - 💊 **Medicine List:** View, search, and manage medicines  
@@ -37,21 +33,17 @@ Users can:
 - 🔒 **Secure Backend:** Sensitive info stored in `.env`  
 - 🗄️ **MongoDB Storage:** Data persists across sessions  
 
----
 
 ## 🎥 Demo
 - [Optional: Add demo video or GIF here]  
 > For example, a walkthrough of adding/searching medicines or using the chatbot.
 
----
 
 ## 🛠️ Technologies Used<br>
 - **Frontend:** HTML, CSS, JavaScript <br> 
 - **Backend:** python with flask  <br>
 - **Database:** MongoDB  <br>
 - **Tools:** VSCode, Git, GitHub  <br>
-
----
 
 ## ⚙️ Installation
 To run this project locally:<br>
@@ -71,7 +63,6 @@ node server.js<br>
 ***5. Open Frontend***<br>
 Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 
----
 
 ## 🚀 Usage
 - Open the frontend files in your browser (or use Live Server in VSCode). 
@@ -80,15 +71,12 @@ Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 - Claim medicines from available donations. 🎁    
 - Interact with the chatbot for guidance. 🤖
 
----
-
 ## 📝 Notes<br>
 .env is required to run the backend; backend will not work without proper MongoDB URI<br>
 node_modules/ is ignored; run npm install to install packages locally<br>
 IDE folders like .vscode/ and .vs/ are ignored—they are not required for the project<br>
 Only track essential files: frontend files, server.js, package.json, package-lock.json
 
----
 
 ## 📝 MIT License<br>
 Copyright (c) 2026 Aavala Hema Sri<br>
