@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MediHelp Chatbot</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    background: #f4f4f4;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0c4b8f;
+}
+
+/* --- Chatbot Box --- */
+#chatbot {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+#chatbot h3 {
+    text-align: center;
+    color: #0c4b8f;
+    margin: 0 0 10px 0;
+}
+
+#chat-log {
+    height: 300px;
+    overflow-y: auto;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#chat-log p {
+    margin: 6px 0;
+}
+
+#user-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#send-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    background: #0c4b8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background: #093d75;
+}
+</style>
+</head>
+<body>
+
+<h1>💊 MedHelp Bot</h1>
+
+<div id="chatbot">
+    <div id="chat-log">
+        <p><strong>Bot:</strong> Hello! Describe your symptoms and I’ll suggest a medicine.</p>
+    </div>
+    <input type="text" id="user-input" placeholder="Type your symptoms...">
+    <button id="send-btn">Send</button>
+</div>
+
+<script>
+const symptomToMedicine = {
+    "fever": "Paracetamol 650mg",
+    "temperature": "Dolo 650mg",
+    "body pain": "Ibuprofen 400mg",
+    "cold": "Cetirizine 10mg",
+    "sneezing": "Cetirizine 10mg",
+    "cough": "Ascoril Syrup",
+    "vomiting": "Domstal 10mg",
+    "loose motion": "ORS Powder",
+    "acidity": "Pantoprazole 40mg",
+    "gas": "Gelusil / Digene",
+    "headache": "Paracetamol 500mg",
+    "infection": "Azithromycin 250mg (only if prescribed by doctor)"
+};
+
+function sendMessage() {
+    const inputField = document.getElementById("user-input");
+    const chatLog = document.getElementById("chat-log");
+    const input = inputField.value.trim();
+    if(!input) return;
+
+    chatLog.innerHTML += `<p><strong>You:</strong> ${input}</p>`;
+
+    let reply = "Sorry, I couldn't recognize these symptoms.";
+    for(let symptom in symptomToMedicine) {
+        if(input.toLowerCase().includes(symptom)) {
+            reply = `Suggested medicine: <strong>${symptomToMedicine[symptom]}</strong><br><small>(Guidance only — Not a medical diagnosis)</small>`;
+            break;
+        }
+    }
+
+    chatLog.innerHTML += `<p><strong>Bot:</strong> ${reply}</p>`;
+    chatLog.scrollTop = chatLog.scrollHeight;
+
+    inputField.value = "";
+    inputField.focus();
+}
+
+document.getElementById("send-btn").addEventListener("click", sendMessage);
+document.getElementById("user-input").addEventListener("keypress", function(e) {
+    if(e.key === "Enter") sendMessage();
+});
+</script>
+
+</body>
+</html>
