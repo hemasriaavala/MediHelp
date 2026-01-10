@@ -96,11 +96,8 @@ Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 **Claim-Medicine**<br>
 ![image alt](Claim-Medicine.png)
 
-**Available Medicines**<br>
-![image alt](Medicines-list.png)
-
 **Mini chatbot**<br>
-![image alt](Chatbot)
+![image alt](Chatbot.png)
 
 ## 🔮 Future Improvements<br>
 Enhance chatbot with AI-based guidance
