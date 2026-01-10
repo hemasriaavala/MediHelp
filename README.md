@@ -67,7 +67,7 @@ MEDIHELP/
 
 ## Setup Instructions
 
-**1. Clone the repository**
+***1. Clone the repository***
 
 git clone (https://github.com/hemasriaavala/MediHelp.git)
 
@@ -81,7 +81,7 @@ cd medhelp-backend
 npm install       # Install dependencies
 
 
-*3. Configure Environment Variables*
+***3. Configure Environment Variables***
 
 Create a .env file inside medhelp-backend/ with the following variables:
 
@@ -92,12 +92,12 @@ MONGO_URI=your_mongodb_connection_string
 Important: Do not share .env publicly; it contains sensitive data.
 
 
-*4. Start Backend*
+***4. Start Backend***
 
 node server.js
 
 
-*5. Open Frontend*
+***5. Open Frontend***
 
 Open the HTML files in frontend/ using a browser (or serve via Live Server).
 
