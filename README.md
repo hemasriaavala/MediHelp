@@ -69,7 +69,7 @@ MEDIHELP/
 ### Setup Instructions
 
 ### **1. Clone the repository**
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/hemasri/your-repo.git
 cd MEDIHELP
 
 ### **2. Setup Backend**
@@ -97,6 +97,9 @@ Tools: VSCode, Git, GitHub
 
 ### Notes
 .env is required to run the backend; backend will not work without proper MongoDB URI
+
 node_modules/ is ignored; run npm install to install packages locally
+
 IDE folders like .vscode/ and .vs/ are ignored—they are not required for the project
+
 Only track essential files: frontend files, server.js, package.json, package-lock.json
