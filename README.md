@@ -26,7 +26,7 @@ Users can:
 ## ✨ Features
 💊 **Medicine List:** View, search, and manage medicines   
 📝 **Medicine Details:** Check details of any medicine  
-🤝 **Donate Medicines:** Contribute medicines to users in need
+🤝 **Donate Medicines:** Contribute medicines to users in need<br>
 🎁 **Claim Medicines:** Claim medicines from available donations  
 🤖 **Chatbot Assistance:** For basic information  
 🔒 **Secure Backend:** Sensitive info stored in `.env`  
