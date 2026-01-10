@@ -19,9 +19,6 @@ It provides functionalities such as:
 - Claming medicines
 - Chatbot-based guidance for users
 
-- This project is divided into **frontend** and **backend** for better maintainability.
-
-
 ## Features
 - User-friendly responsive frontend
 - Backend powered by MongoDB
@@ -29,7 +26,6 @@ It provides functionalities such as:
 - Medicine management system with add/view/search features
 - Secure handling of sensitive information using `.env`
 
-  
 ## Folder Structure
 MEDIHELP/
 
@@ -100,7 +96,6 @@ node server.js
 ***5. Open Frontend***
 
 Open the HTML files in frontend/ using a browser (or serve via Live Server).
-
 
 ## Technologies Used
 Frontend: HTML, CSS, JavaScript
