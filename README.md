@@ -100,7 +100,7 @@ Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 ![image alt](Chatbot.png)
 
 ## 🔮 Future Improvements<br>
-Enhance chatbot with AI-based guidance
+Enhance chatbot with AI-based guidance<br>
 Add admin panel to manage medicines more efficiently
 
 ## 📝 MIT License<br>
