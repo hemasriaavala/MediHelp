@@ -18,7 +18,6 @@ Helping you manage medicines and get guidance quickly! 💊🤖
 
 Users can:  
 - View and search medicine lists <br>
-- Add new medicines  <br>
 - Donate medicines  <br>
 - Claim medicines <br>
 - Interact with a chatbot for basic medical assistance  <br>
