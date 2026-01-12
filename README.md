@@ -3,7 +3,7 @@ Helping you manage medicines and get guidance quickly! 💊🤖
 ![image alt](https://github.com/hemasriaavala/MediHelp/blob/890e997afeb5836db86f4f9c34a9019a3e743d3e/Home.png)
 
 
-📑 **Table of Contents**
+## 📑Table of Contents<br>
 - [About the Project](#about-the-project)  
 - [Features](#features)  
 - [Demo](#demo)  
@@ -34,7 +34,7 @@ Users can:
 🗄️ **MongoDB Storage:** Data persists across sessions  
 
 
-## 🎥 Demo
+## 🎥 Demo<br>
 [demo-video](https://github.com/user-attachments/assets/e2e41d50-ee1d-448a-97ef-979fbec4c91b)
 
 📌**Note:** The demo video is ~1 minute long. For faster viewing and better understanding, you may adjust the playback speed (e.g., 1.25x / 1.5x).
@@ -43,29 +43,29 @@ Users can:
 - **Frontend:** HTML, CSS, JavaScript <br> 
 - **Backend:** python with flask  <br>
 - **Database:** MongoDB  <br>
-- **Tools:** VSCode, Git, GitHub  <br>
+- **Tools:** VSCode, GitHub  <br>
 
 ## ⚙️ Installation
 To run this project locally:<br>
-***1. Clone the repository***<br>
+**1. Clone the repository**<br>
 git clone (https://github.com/hemasriaavala/MediHelp.git)<br>
 cd MEDIHELP<br>
-***2. Setup Backend***<br>
+**2. Setup Backend**<br>
 cd medhelp-backend<br>
 npm install       # Install dependencies<br>
-***3. Configure Environment Variables***<br>
+**3. Configure Environment Variables**<br>
 Create a .env file inside medhelp-backend/ with the following variables:<br>
 PORT=3000<br>
 MONGO_URI=your_mongodb_connection_string<br>
 Important: Do not share .env publicly; it contains sensitive data.<br>
-***4. Start Backend***<br>
+**4. Start Backend**<br>
 node server.js<br>
-***5. Open Frontend***<br>
+**5. Open Frontend**<br>
 Open the HTML files in frontend/ using a browser (or serve via Live Server).<br>
 
 
 ## 🚀 Usage<br>
-- Open the frontend files in your browser (or use Live Server in VSCode). 
+- Open the frontend files in your browser (or use Live Server in VSCode). 🌐
 - View full details of any medicine. 📝  
 - Donate medicines to others in need. 🤝  
 - Claim medicines from available donations. 🎁    
