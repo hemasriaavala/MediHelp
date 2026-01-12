@@ -35,7 +35,9 @@ Users can:
 
 
 ## 🎥 Demo
-[demo-video](https://github.com/hemasriaavala/MediHelp/blob/81a09d97cf5861ef20641edf68becc99ba9cea5b/SRMediHelp.mp4)
+[demo-video](https://github.com/user-attachments/assets/e2e41d50-ee1d-448a-97ef-979fbec4c91b)
+
+📌**Note:** The demo video is ~1 minute long. For faster viewing and better understanding, you may adjust the playback speed (e.g., 1.25x / 1.5x).
 
 ## 🛠️ Technologies Used<br>
 - **Frontend:** HTML, CSS, JavaScript <br> 
