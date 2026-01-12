@@ -35,9 +35,7 @@ Users can:
 
 
 ## 🎥 Demo
-- [Optional: Add demo video or GIF here]  
-> For example, a walkthrough of adding/searching medicines or using the chatbot.
-
+[demo-video](https://github.com/hemasriaavala/MediHelp/blob/81a09d97cf5861ef20641edf68becc99ba9cea5b/SRMediHelp.mp4)
 
 ## 🛠️ Technologies Used<br>
 - **Frontend:** HTML, CSS, JavaScript <br> 
